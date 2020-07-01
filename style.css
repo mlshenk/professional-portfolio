@@ -1,0 +1,129 @@
+body {
+  background-color: grey;
+}
+p {
+  color: #041E42;
+}
+.body-container {
+  background-color: #041E42;
+  margin: 3% auto;
+  padding: 2.5%;
+  border: 5px solid #EFB21E;
+  border-style: double;
+  border-radius: 15px;
+}
+.navbar {
+  background-color: #041E42;
+  font-family: 'Anton', sans-serif;
+  border-bottom: 5px solid #EFB21E;
+}
+.navbar-toggler {
+ border-color: #EFB21E;
+ border-width: 2px;
+ border-style: double;
+}
+.navbar-main {
+  background-color: #041E42;
+  color:#EFB21E;
+  font-size: 40px;
+  padding: 0 10px 0 10px;
+}
+.nav-tab {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  border: 5px solid #041E42;
+  border-style: double;
+}
+.dropdown-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.search-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-search {
+  color: #EFB21E;
+  background-color: #041E42;
+  border: 2px solid #EFB21E;
+}
+.btn-search:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+}
+.header-font {
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
+  color: #EFB21E;
+  text-decoration:  underline;
+}
+.bio-body {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #FFC72C;
+}
+.footer-header {
+  font-size: 17px;
+}
+.footerbar {
+  padding: 30px;
+  font-size: 12px;
+  clear: both;
+  color: #041E42;
+  background-color: #EFB21E;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  align-items: flex-end;
+  border-top: 10px solid #041E42;
+  border-top-style: double;
+}
+h5 {
+  font-style: italic;
+  text-decoration: underline;
+}
+p.bio-body a {
+  color:#EFB21E;
+}
+img {
+  padding: 15px;
+  height: 35%;
+  width: 35%;
+  border-radius: 20px;
+}
+.col-md-4 {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+.img-fluid {
+  border-radius: 20px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+/* The following CSS attributes apply only to the "contact.html" page. */
+.form-container {
+  background: linear-gradient(120deg, #041E42 35%, #EFB21E 100%);
+  padding: 2.5%;
+   margin: 3% auto;
+   border: 5px solid #EFB21E;
+   border-style: double;
+   border-radius: 15px;
+}
+.form-text {
+  color: white;
+}
+.btn-submit {
+  background-color: #041E42;
+  color: #EFB21E;
+  border: 2px solid;
+}
+.btn-submit:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+}
+textarea {
+  resize: none;
+} 
