@@ -67,16 +67,20 @@ p {
   font-size: 17px;
 }
 .footerbar {
-  padding: 30px;
-  font-size: 12px;
-  clear: both;
+  display: flex;
   color: #041E42;
   background-color: #EFB21E;
-  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  align-items: flex-end;
   border-top: 10px solid #041E42;
   border-top-style: double;
+  max-height: 100%;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  position: fixed;
 }
 h5 {
   font-style: italic;
@@ -121,9 +125,12 @@ img {
 }
 .btn-submit:hover {
   background-color: #EFB21E;;
-  border: 1px solid white;
+  border: 1px solid grey;
   opacity: 1;
 }
 textarea {
   resize: none;
 } 
+.presentation {
+  text-align: center;
+}
