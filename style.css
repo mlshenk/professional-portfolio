@@ -79,12 +79,12 @@ p.bio-body a {
 }
 img {
   padding: 15px;
-  max-height: auto;
-  max-width: auto;
+  height: 35%;
+  width: 35%;
   border-radius: 20px;
 }
 .portfolio-img{
-  height: 50%;
+  height: 35%;
   width: 50%;
 }
 .img-fluid {
@@ -161,6 +161,7 @@ textarea {
   background: #007bb5;
   color: white;
 }
+
 .presentation {
   text-align: center;
   color: white;
@@ -170,6 +171,7 @@ textarea {
 
 #contact-info h1{
   color: white;
+
 }
 #contact-info h3{
   color: white;
@@ -188,5 +190,7 @@ footer p {
 }
 
 #js-quiz {
+
   box-shadow: 10px 10px 20px #EFB21E;
+
 }
