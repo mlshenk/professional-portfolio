@@ -79,8 +79,8 @@ p.bio-body a {
 }
 img {
   padding: 15px;
-  height: 35%;
-  width: 35%;
+  max-height: auto;
+  max-width: auto;
   border-radius: 20px;
 }
 .portfolio-img{
