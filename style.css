@@ -161,7 +161,6 @@ textarea {
   background: #007bb5;
   color: white;
 }
-
 .presentation {
   text-align: center;
   color: white;
@@ -171,7 +170,6 @@ textarea {
 
 #contact-info h1{
   color: white;
-
 }
 #contact-info h3{
   color: white;
@@ -190,7 +188,5 @@ footer p {
 }
 
 #js-quiz {
-
   box-shadow: 10px 10px 20px #EFB21E;
-
 }
